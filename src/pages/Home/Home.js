@@ -5,6 +5,8 @@ import CollaborativeHeader from "../../components/CollaborativeHeader/Collaborat
 import AboutUs from "../../components/AboutUs/AboutUs";
 import WhatWeDo from "../../components/WhatWeDo/WhatWeDo";
 import Highlights from "../../components/Highlights/Highlights";
+import MeetUs from "../../components/MeetUs/MeetUs";
+import ContactForm from "../../components/ContactForm/ContactForm";
 
 import heroImg1 from "../../assets/hero-bg.jpg";
 import heroImg2 from "../../assets/hero-bg-2.jpg";
@@ -15,7 +17,6 @@ import project2 from "../../assets/project2.jpg";
 import project3 from "../../assets/project3.webp";
 import project4 from "../../assets/project4.jpg";
 import "./Home.css";
-import MeetUs from "../../components/MeetUs/MeetUs";
 
 function Home() {
   const heroTitle =
@@ -62,6 +63,7 @@ function Home() {
       <WhatWeDo slider={whatWeDoSlider} />
       <Highlights slider={highlightsSlider} />
       <MeetUs />
+      <ContactForm />
     </main>
   );
 }
