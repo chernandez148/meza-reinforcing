@@ -65,7 +65,7 @@ function Highlights({ slider }) {
           className="carousel-wrapper"
         >
           <Carousel
-            swipeable={false}
+            swipeable={true}
             draggable={false}
             showDots={false}
             responsive={responsive}
