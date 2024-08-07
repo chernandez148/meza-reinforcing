@@ -37,12 +37,16 @@
 .contact-form-wrapper form {
   background-color: white;
   padding: 5rem 3rem;
+  transition: all 0.5s ease-in-out;
+  position: relative;
 }
 
 .contact-form-wrapper .contact-title h1 {
   font-size: 80px;
   line-height: 70px;
   color: white;
+  transition: all 0.5s ease-in-out;
+  position: relative;
 }
 
 .contact-form-wrapper input {
