@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/meza-reinforcing/static/css/main.2c465c1d.css",
+    "main.css": "/meza-reinforcing/static/css/main.f16f7d27.css",
     "main.js": "/meza-reinforcing/static/js/main.20fbb9df.js",
     "static/media/about-us-bg.png": "/meza-reinforcing/static/media/about-us-bg.26588a038e5ad0c0da0f.png",
     "static/media/collaborative-bg.png": "/meza-reinforcing/static/media/collaborative-bg.9183db0971e301d8d9dd.png",
@@ -21,11 +21,11 @@
     "static/media/revicons.ttf": "/meza-reinforcing/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/meza-reinforcing/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/meza-reinforcing/index.html",
-    "main.2c465c1d.css.map": "/meza-reinforcing/static/css/main.2c465c1d.css.map",
+    "main.f16f7d27.css.map": "/meza-reinforcing/static/css/main.f16f7d27.css.map",
     "main.20fbb9df.js.map": "/meza-reinforcing/static/js/main.20fbb9df.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c465c1d.css",
+    "static/css/main.f16f7d27.css",
     "static/js/main.20fbb9df.js"
   ]
 }
