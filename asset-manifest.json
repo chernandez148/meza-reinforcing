@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/meza-reinforcing/static/css/main.4efe2369.css",
-    "main.js": "/meza-reinforcing/static/js/main.ef4be4bd.js",
+    "main.css": "/meza-reinforcing/static/css/main.bee42014.css",
+    "main.js": "/meza-reinforcing/static/js/main.79398f30.js",
     "static/media/about-us-bg.png": "/meza-reinforcing/static/media/about-us-bg.26588a038e5ad0c0da0f.png",
     "static/media/collaborative-bg.png": "/meza-reinforcing/static/media/collaborative-bg.9183db0971e301d8d9dd.png",
     "static/media/hero-bg.jpg": "/meza-reinforcing/static/media/hero-bg.f98e3b7a59933a58c625.jpg",
     "static/media/hero-bg-2.jpg": "/meza-reinforcing/static/media/hero-bg-2.3eb9c54fe84d6a9dcf83.jpg",
     "static/media/meet-us-img.jpg": "/meza-reinforcing/static/media/meet-us-img.94546a367fb621205d21.jpg",
     "static/media/project3.webp": "/meza-reinforcing/static/media/project3.8f746543afdf3af59884.webp",
+    "static/media/contact-us-bg.png": "/meza-reinforcing/static/media/contact-us-bg.08c679aedce2ed03b393.png",
     "static/media/rebar-fabrication.webp": "/meza-reinforcing/static/media/rebar-fabrication.687a6804f40e36bb0b06.webp",
     "static/media/rebar-detailing.webp": "/meza-reinforcing/static/media/rebar-detailing.ad4238263b7b925d56f8.webp",
     "static/media/project1.jpg": "/meza-reinforcing/static/media/project1.10e828ac2eb5dfe87f16.jpg",
@@ -20,11 +21,11 @@
     "static/media/revicons.ttf": "/meza-reinforcing/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/meza-reinforcing/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/meza-reinforcing/index.html",
-    "main.4efe2369.css.map": "/meza-reinforcing/static/css/main.4efe2369.css.map",
-    "main.ef4be4bd.js.map": "/meza-reinforcing/static/js/main.ef4be4bd.js.map"
+    "main.bee42014.css.map": "/meza-reinforcing/static/css/main.bee42014.css.map",
+    "main.79398f30.js.map": "/meza-reinforcing/static/js/main.79398f30.js.map"
   },
   "entrypoints": [
-    "static/css/main.4efe2369.css",
-    "static/js/main.ef4be4bd.js"
+    "static/css/main.bee42014.css",
+    "static/js/main.79398f30.js"
   ]
 }
