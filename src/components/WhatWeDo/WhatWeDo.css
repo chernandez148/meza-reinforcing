@@ -136,4 +136,9 @@
     font-size: 60px;
     line-height: 50px;
   }
+
+  .slider-indicator {
+    top: 0;
+    bottom: auto;
+  }
 }
