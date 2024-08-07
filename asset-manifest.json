@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/chernandez148/meza-reinforcing/static/css/main.a1376525.css",
+    "main.js": "/chernandez148/meza-reinforcing/static/js/main.3d5ee4df.js",
+    "static/media/about-us-bg.png": "/chernandez148/meza-reinforcing/static/media/about-us-bg.26588a038e5ad0c0da0f.png",
+    "static/media/collaborative-bg.png": "/chernandez148/meza-reinforcing/static/media/collaborative-bg.9183db0971e301d8d9dd.png",
+    "static/media/hero-bg.jpg": "/chernandez148/meza-reinforcing/static/media/hero-bg.f98e3b7a59933a58c625.jpg",
+    "static/media/hero-bg-2.jpg": "/chernandez148/meza-reinforcing/static/media/hero-bg-2.3eb9c54fe84d6a9dcf83.jpg",
+    "static/media/meet-us-img.jpg": "/chernandez148/meza-reinforcing/static/media/meet-us-img.94546a367fb621205d21.jpg",
+    "static/media/project3.webp": "/chernandez148/meza-reinforcing/static/media/project3.8f746543afdf3af59884.webp",
+    "static/media/rebar-fabrication.webp": "/chernandez148/meza-reinforcing/static/media/rebar-fabrication.687a6804f40e36bb0b06.webp",
+    "static/media/rebar-detailing.webp": "/chernandez148/meza-reinforcing/static/media/rebar-detailing.ad4238263b7b925d56f8.webp",
+    "static/media/project1.jpg": "/chernandez148/meza-reinforcing/static/media/project1.10e828ac2eb5dfe87f16.jpg",
+    "static/media/build-something-together.jpg": "/chernandez148/meza-reinforcing/static/media/build-something-together.e195986cf5bc6ff0d712.jpg",
+    "static/media/about-us-img.jpg": "/chernandez148/meza-reinforcing/static/media/about-us-img.f43f4c3a4f32c437cbec.jpg",
+    "static/media/project2.jpg": "/chernandez148/meza-reinforcing/static/media/project2.2f7eb9cf8149120753f8.jpg",
+    "static/media/project4.jpg": "/chernandez148/meza-reinforcing/static/media/project4.77b75466511f95dc43b2.jpg",
+    "static/media/logo.webp": "/chernandez148/meza-reinforcing/static/media/logo.1debc60f96e564517d44.webp",
+    "static/media/revicons.eot": "/chernandez148/meza-reinforcing/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/chernandez148/meza-reinforcing/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/chernandez148/meza-reinforcing/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/chernandez148/meza-reinforcing/index.html",
+    "main.a1376525.css.map": "/chernandez148/meza-reinforcing/static/css/main.a1376525.css.map",
+    "main.3d5ee4df.js.map": "/chernandez148/meza-reinforcing/static/js/main.3d5ee4df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1376525.css",
+    "static/js/main.3d5ee4df.js"
+  ]
+}
