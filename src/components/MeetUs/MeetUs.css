@@ -112,6 +112,10 @@
     order: 1;
   }
 
+  .meet-us-wrapper p {
+    margin-bottom: 2rem;
+  }
+
   .meet-us-inner-wrapper {
     display: flex;
     flex-direction: column;
