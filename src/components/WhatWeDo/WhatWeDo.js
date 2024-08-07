@@ -94,6 +94,14 @@ function WhatWeDo({ slider }) {
           </h1>
         ))}
       </div>
+      <div className="slider-indicator">
+        {slider.map((slider, index) => (
+          <span
+            key={slider.name}
+            className={index === sliderIndex ? "active" : ""}
+          ></span>
+        ))}
+      </div>
     </div>
   );
 }

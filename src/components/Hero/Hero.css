@@ -59,8 +59,8 @@
   position: relative;
   background-color: white;
   display: block;
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   transition: background-color 1s ease-in-out;
   margin: 0 0.25rem;
