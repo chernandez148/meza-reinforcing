@@ -1,0 +1,7 @@
+.VerticalLine {
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: #d7d7d7;
+}

@@ -1,0 +1,69 @@
+.Highlights {
+  padding-bottom: 3rem;
+  position: relative;
+}
+
+.Highlights h5 {
+  padding: 3rem 0 1rem 0;
+  margin: 0 auto;
+  border-bottom: 3px solid #1a3b80;
+  width: fit-content;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  z-index: 3;
+}
+
+.highlights-wrapper {
+  text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.highlights-wrapper h1 {
+  position: relative;
+  font-size: 50px;
+  font-weight: 400;
+  transition: all 0.5s ease-in-out;
+  z-index: 3;
+}
+
+.highlights-wrapper .accent {
+  font-weight: 700;
+}
+
+.highlights-wrapper p {
+  font-size: 14px;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  z-index: 3;
+}
+
+.carousel-wrapper {
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  z-index: 3;
+}
+
+.carousel-container {
+  padding-top: 3rem;
+}
+
+.highlights-item {
+  object-fit: cover;
+  object-position: center;
+  height: 400px;
+  padding: 0 1rem;
+  width: calc(100% - 2rem);
+}
+
+.itemClass {
+  padding: 0 1rem;
+}
+
+@media (max-width: 1250px) {
+  .highlights-wrapper {
+    padding: 0 1rem;
+    width: calc(100% - 2rem);
+    margin: 0 auto;
+  }
+}

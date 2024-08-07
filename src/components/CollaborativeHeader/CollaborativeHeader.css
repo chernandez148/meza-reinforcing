@@ -1,0 +1,93 @@
+.CollaborativeHeader {
+  background-image: url(../../assets/collaborative-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  position: relative;
+}
+
+.CollaborativeHeader::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(0, 0%, 100%, 0.95);
+}
+
+.collaborative-header-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0;
+  z-index: 3;
+  position: relative;
+}
+
+.collaborative-header-wrapper img {
+  width: 50%;
+  height: auto;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+}
+
+.collaborative-header-wrapper h1 {
+  margin-left: 3rem;
+  font-size: 100px;
+  line-height: 80px;
+  font-weight: 900;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+}
+
+@media (max-width: 1450px) {
+  .collaborative-header-wrapper {
+    margin: 0 3rem;
+    width: calc(100% - 6rem);
+  }
+
+  .collaborative-header-wrapper h1 {
+    font-size: 75px;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .collaborative-header-wrapper h1 {
+    font-size: 60px;
+    line-height: 50px;
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .CollaborativeHeader {
+    background-size: cover;
+  }
+
+  .collaborative-header-wrapper {
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    margin: 0 1rem;
+    width: calc(100% - 2rem);
+  }
+
+  .collaborative-header-wrapper img {
+    width: 100%;
+    height: auto;
+  }
+
+  .collaborative-header-wrapper h1 {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .collaborative-header-wrapper h1 {
+    font-size: 40px;
+    line-height: 36px;
+  }
+}

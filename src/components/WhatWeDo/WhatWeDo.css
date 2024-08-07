@@ -1,0 +1,115 @@
+.WhatWeDo {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.what-we-do-slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.5s ease-in-out;
+}
+
+.what-we-do-wrapper {
+  position: relative;
+  z-index: 2;
+  width: 50%;
+  height: 100%;
+  background-color: hsla(0, 0%, 0%, 0.85);
+  color: white;
+}
+
+.what-we-do-wrapper h5 {
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  margin: 3rem;
+}
+
+.what-we-do-inner-wrapper {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.what-we-do-inner-wrapper .slider-info {
+  position: absolute;
+  text-align: right;
+}
+
+.slider-info h3 {
+  font-size: 24px;
+  transition: all 1s ease-in-out;
+  position: relative;
+}
+
+.slider-info p {
+  font-size: 14px;
+  transition: all 1s ease-in-out;
+  position: relative;
+}
+
+.jumbo-text {
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.jumbo-text h1 {
+  position: absolute;
+  font-weight: 800;
+  font-size: 120px;
+  margin: 0;
+  line-height: 90px;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+.jumbo-text h1:last-child {
+  position: relative;
+}
+
+@media (max-width: 1250px) {
+  .what-we-do-inner-wrapper {
+    width: 75%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .what-we-do-wrapper {
+    width: 80%;
+  }
+}
+
+@media (max-width: 676px) {
+  .what-we-do-wrapper {
+    width: 100%;
+  }
+
+  .jumbo-text h1 {
+    font-size: 80px;
+    line-height: 62px;
+  }
+
+  .what-we-do-inner-wrapper {
+    width: 80%;
+  }
+}
+
+@media (max-width: 676px) {
+  .jumbo-text h1 {
+    font-size: 60px;
+    line-height: 50px;
+  }
+}

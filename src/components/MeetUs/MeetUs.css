@@ -1,0 +1,131 @@
+.MeetUs {
+  background-image: url(../../assets/about-us-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+}
+
+.MeetUs::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(0, 0%, 100%, 0.95);
+}
+
+.meet-us-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0;
+  z-index: 3;
+  position: relative;
+  flex-direction: column;
+}
+
+.meet-us-wrapper h5 {
+  padding-bottom: 1rem;
+  border-bottom: 3px solid #1a3b80;
+  transition: all 0.5s ease-in-out;
+}
+
+.meet-us-inner-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.meet-us-left,
+.meet-us-right {
+  width: 50%;
+}
+
+.meet-us-left h1 {
+  position: relative;
+  left: 50%;
+  font-size: 45px;
+  font-weight: 400;
+  transition: all 0.5s ease-in-out;
+  z-index: 2;
+}
+
+.meet-us-left h1 span {
+  font-weight: 800;
+}
+
+.meet-us-left p {
+  font-size: 14px;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+}
+
+.meet-us-right {
+  transition: all 0.5s ease-in-out;
+  position: relative;
+}
+
+@media (max-width: 1450px) {
+  .meet-us-wrapper {
+    margin: 0 3rem;
+    width: calc(100% - 6rem);
+  }
+  .meet-us-wrapper h1 {
+    font-size: 50px;
+    left: 25%;
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 950px) {
+  .MeetUs {
+    background-size: cover;
+  }
+
+  .meet-us-left p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .meet-us-wrapper {
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    margin: 0 1rem;
+    width: calc(100% - 2rem);
+  }
+
+  .meet-us-wrapper img {
+    width: 100%;
+    height: auto;
+  }
+
+  .meet-us-wrapper h1 {
+    margin-left: 0;
+    left: 0;
+  }
+
+  .meet-us-wrapper h5 {
+    order: 1;
+  }
+
+  .meet-us-inner-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .meet-us-left,
+  .meet-us-right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .meet-us-wrapper h1 {
+    font-size: 40px;
+    line-height: 36px;
+  }
+}

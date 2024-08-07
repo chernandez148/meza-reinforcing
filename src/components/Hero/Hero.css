@@ -1,0 +1,81 @@
+.Hero {
+  height: 800px;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.Hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, hsla(220, 100%, 70%, 0.5), #699bff00);
+  z-index: 2;
+}
+
+.Hero img {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  height: 800px;
+  object-fit: cover;
+  transition: opacity 1s ease-in-out;
+}
+
+.hero-title {
+  width: 800px;
+  z-index: 3;
+  padding-left: 5rem;
+}
+
+.hero-title h1 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.hero-title button {
+  background-color: white;
+  border: 0;
+  padding: 10px 14px;
+  font-weight: 700;
+}
+
+.Hero .slider-indicator {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  margin-bottom: 1rem;
+}
+
+.Hero .slider-indicator span {
+  position: relative;
+  background-color: white;
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  transition: background-color 1s ease-in-out;
+  margin: 0 0.25rem;
+}
+
+.Hero .slider-indicator span.active {
+  background-color: #699bff;
+}
+
+@media (max-width: 767px) {
+  .hero-title {
+    padding-left: 2rem;
+  }
+
+  .hero-title h1 {
+    font-size: 1.75rem;
+  }
+}
